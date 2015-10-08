@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="MobileCompass.MobileCompass" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk />
+	<application android:label="MobileCompass" android:icon="@drawable/Icon"></application>
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_SURFACE_FLINGER" />
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+	<uses-permission android:name="android.permission.BODY_SENSORS" />
+	<uses-permission android:name="android.permission.SET_ANIMATION_SCALE" />
+	<uses-permission android:name="android.permission.SET_ORIENTATION" />
+	<uses-permission android:name="android.permission.SET_POINTER_SPEED" />
+	<uses-permission android:name="android.permission.WRITE_GSERVICES" />
+</manifest>
