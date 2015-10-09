@@ -10,27 +10,25 @@
         android:id="@+id/imageViewCompass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tvHeading"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/scompass" />
+        android:src="@drawable/outerdial" />
     <ImageView
         android:id="@+id/imageViewDial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/dialbig" />
+        android:src="@drawable/lcenterdial" />
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
         android:gravity="center">
         <TextView
             android:id="@+id/headingDirection"
             android:text="NE"
             android:textSize="25dp"
-            android:textStyle="bold"
             android:layout_height="40dp"
-            android:layout_below="@+id/imageViewDial"
             android:gravity="center|top"
             android:layout_centerHorizontal="true"
             android:textColor="@android:color/white"

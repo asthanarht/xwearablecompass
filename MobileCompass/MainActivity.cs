@@ -13,11 +13,12 @@ namespace MobileCompass
     [Activity(Label = "MobileCompass", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity, ISensorEventListener
     {
+        //Initialize sensor manager for compass direction
         private SensorManager sensorManager;
-
         private float currentDegree = 0f;
-        ImageView image;
-        TextView tvHeading;
+
+        //Initilaize global variable for UI view
+        ImageView outerDialImage;
         ImageView dialImage;
         TextView headingDirection;
         TextView headingDegree;
@@ -28,19 +29,20 @@ namespace MobileCompass
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
-            image = FindViewById<ImageView>(Resource.Id.imageViewCompass);
-            tvHeading = FindViewById<TextView>(Resource.Id.tvHeading);
+            // Initilize system sensor service 
+            sensorManager = (SensorManager)GetSystemService(SensorService);
+
+            // Get elemnt from the layout resource,
+            outerDialImage = FindViewById<ImageView>(Resource.Id.imageViewCompass);
             headingDirection = FindViewById<TextView>(Resource.Id.headingDirection);
             headingDegree = FindViewById<TextView>(Resource.Id.headingDegree);
             dialImage = FindViewById<ImageView>(Resource.Id.imageViewDial);
-            sensorManager = (SensorManager)GetSystemService(SensorService);
         }
 
         protected override void OnResume()
         {
             base.OnResume();
+            // Listen sensor manger on resume activity of app
 
             sensorManager.RegisterListener(this, sensorManager.GetDefaultSensor(SensorType.Orientation), SensorDelay.Game);
         }
@@ -49,6 +51,7 @@ namespace MobileCompass
         protected override void OnPause()
         {
             base.OnPause();
+            // stop listening if app is no longer used. This is importent step otherwise it will drain your watch battery.
             sensorManager.UnregisterListener(this);
         }
 
@@ -59,38 +62,41 @@ namespace MobileCompass
 
         public void OnSensorChanged(SensorEvent e)
         {
-            
+            //Get sensor degree
             float degree = (float)Math.Round(e.Values[0]);
-            tvHeading.Text = "Heading: " + Convert.ToString(degree) +"\u00B0" + " degrees";
-            headingDirection.Text = CalculateDirection(degree);
-            headingDegree.Text = Convert.ToString(degree) + "\u00B0";
-            var ra = new RotateAnimation(currentDegree, -degree, Dimension.RelativeToSelf, 0.5f, Dimension.RelativeToSelf, 0.5f);
-            ra.Duration = 210;
-            ra.FillAfter = true;
-            image.Animation = ra;
-            currentDegree = -degree;
 
+            //values[0]: Angle between the magnetic north direction and the y-axis around the z-axis (0 to 359), where 0=North, 90=East, 180=South, 270=West.
+            //values[1]: Rotation around x-axis (-180 to 180), with positive values when the z-axis moves towards the y-axis.
+            //values[2]: Rotation around x-axis, (-90 to 90), increasing as the device moves clockwise.
+
+            //calculate direction coordinal
+            headingDirection.Text = CalculateDirection(degree);
+
+            // Set text for degree
+            headingDegree.Text = Convert.ToString(degree) + "\u00B0";
+            outerDialImage.Rotation = degree;
+
+            //currentDegree is updated with the value of -degree so that the next animation will start from the new position.
+            currentDegree = -degree;
         }
 
         private string CalculateDirection(float degree)
         {
-            if(degree>304 && degree<35)
+            if(degree>322 && degree<54)
                 return "NE";
-            if (degree > 35 && degree < 134)
+            if (degree > 235 && degree < 322)
                 return "NW";
-            if (degree > 134 && degree < 213)
+            if (degree > 148 && degree < 235)
                 return "SW";
-            if (degree > 213 && degree < 304)
+            if (degree > 54 && degree < 148)
                 return "SE";
-            if (degree > 35 && degree < 134)
-                return "NE";
-            if (degree == 35)
+            if (degree == 322)
                 return "N";
-            if (degree == 134)
+            if (degree == 235)
                 return "W";
-            if (degree == 304)
+            if (degree == 54)
                 return "E";
-            if (degree == 213)
+            if (degree == 148)
                 return "S";
 
             return "NE"; //Default :)

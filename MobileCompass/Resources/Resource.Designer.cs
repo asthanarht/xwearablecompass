@@ -63,10 +63,16 @@ namespace MobileCompass
 			public const int Icon = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int ncompass = 2130837510;
+			public const int lcenterdial = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int scompass = 2130837511;
+			public const int ncompass = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int outerdial = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int scompass = 2130837513;
 			
 			static Drawable()
 			{
@@ -81,20 +87,17 @@ namespace MobileCompass
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050004
-			public const int headingDegree = 2131034116;
-			
 			// aapt resource value: 0x7f050003
-			public const int headingDirection = 2131034115;
-			
-			// aapt resource value: 0x7f050001
-			public const int imageViewCompass = 2131034113;
+			public const int headingDegree = 2131034115;
 			
 			// aapt resource value: 0x7f050002
-			public const int imageViewDial = 2131034114;
+			public const int headingDirection = 2131034114;
 			
 			// aapt resource value: 0x7f050000
-			public const int tvHeading = 2131034112;
+			public const int imageViewCompass = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int imageViewDial = 2131034113;
 			
 			static Id()
 			{

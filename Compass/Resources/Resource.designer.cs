@@ -248,394 +248,391 @@ namespace Compass
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int bcompass = 2130837504;
+			public const int card_background = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int bgcompass = 2130837505;
+			public const int card_frame = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int card_background = 2130837506;
+			public const int card_frame_pressed = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int card_frame = 2130837507;
+			public const int close_button = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int card_frame_pressed = 2130837508;
+			public const int common_signin_btn_icon_dark = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int close_button = 2130837509;
+			public const int common_signin_btn_icon_disabled_dark = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int common_signin_btn_icon_dark = 2130837510;
+			public const int common_signin_btn_icon_disabled_focus_dark = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int common_signin_btn_icon_disabled_dark = 2130837511;
+			public const int common_signin_btn_icon_disabled_focus_light = 2130837511;
 			
 			// aapt resource value: 0x7f020008
-			public const int common_signin_btn_icon_disabled_focus_dark = 2130837512;
+			public const int common_signin_btn_icon_disabled_light = 2130837512;
 			
 			// aapt resource value: 0x7f020009
-			public const int common_signin_btn_icon_disabled_focus_light = 2130837513;
+			public const int common_signin_btn_icon_focus_dark = 2130837513;
 			
 			// aapt resource value: 0x7f02000a
-			public const int common_signin_btn_icon_disabled_light = 2130837514;
+			public const int common_signin_btn_icon_focus_light = 2130837514;
 			
 			// aapt resource value: 0x7f02000b
-			public const int common_signin_btn_icon_focus_dark = 2130837515;
+			public const int common_signin_btn_icon_light = 2130837515;
 			
 			// aapt resource value: 0x7f02000c
-			public const int common_signin_btn_icon_focus_light = 2130837516;
+			public const int common_signin_btn_icon_normal_dark = 2130837516;
 			
 			// aapt resource value: 0x7f02000d
-			public const int common_signin_btn_icon_light = 2130837517;
+			public const int common_signin_btn_icon_normal_light = 2130837517;
 			
 			// aapt resource value: 0x7f02000e
-			public const int common_signin_btn_icon_normal_dark = 2130837518;
+			public const int common_signin_btn_icon_pressed_dark = 2130837518;
 			
 			// aapt resource value: 0x7f02000f
-			public const int common_signin_btn_icon_normal_light = 2130837519;
+			public const int common_signin_btn_icon_pressed_light = 2130837519;
 			
 			// aapt resource value: 0x7f020010
-			public const int common_signin_btn_icon_pressed_dark = 2130837520;
+			public const int common_signin_btn_text_dark = 2130837520;
 			
 			// aapt resource value: 0x7f020011
-			public const int common_signin_btn_icon_pressed_light = 2130837521;
+			public const int common_signin_btn_text_disabled_dark = 2130837521;
 			
 			// aapt resource value: 0x7f020012
-			public const int common_signin_btn_text_dark = 2130837522;
+			public const int common_signin_btn_text_disabled_focus_dark = 2130837522;
 			
 			// aapt resource value: 0x7f020013
-			public const int common_signin_btn_text_disabled_dark = 2130837523;
+			public const int common_signin_btn_text_disabled_focus_light = 2130837523;
 			
 			// aapt resource value: 0x7f020014
-			public const int common_signin_btn_text_disabled_focus_dark = 2130837524;
+			public const int common_signin_btn_text_disabled_light = 2130837524;
 			
 			// aapt resource value: 0x7f020015
-			public const int common_signin_btn_text_disabled_focus_light = 2130837525;
+			public const int common_signin_btn_text_focus_dark = 2130837525;
 			
 			// aapt resource value: 0x7f020016
-			public const int common_signin_btn_text_disabled_light = 2130837526;
+			public const int common_signin_btn_text_focus_light = 2130837526;
 			
 			// aapt resource value: 0x7f020017
-			public const int common_signin_btn_text_focus_dark = 2130837527;
+			public const int common_signin_btn_text_light = 2130837527;
 			
 			// aapt resource value: 0x7f020018
-			public const int common_signin_btn_text_focus_light = 2130837528;
+			public const int common_signin_btn_text_normal_dark = 2130837528;
 			
 			// aapt resource value: 0x7f020019
-			public const int common_signin_btn_text_light = 2130837529;
+			public const int common_signin_btn_text_normal_light = 2130837529;
 			
 			// aapt resource value: 0x7f02001a
-			public const int common_signin_btn_text_normal_dark = 2130837530;
+			public const int common_signin_btn_text_pressed_dark = 2130837530;
 			
 			// aapt resource value: 0x7f02001b
-			public const int common_signin_btn_text_normal_light = 2130837531;
+			public const int common_signin_btn_text_pressed_light = 2130837531;
 			
 			// aapt resource value: 0x7f02001c
-			public const int common_signin_btn_text_pressed_dark = 2130837532;
+			public const int compass = 2130837532;
 			
 			// aapt resource value: 0x7f02001d
-			public const int common_signin_btn_text_pressed_light = 2130837533;
+			public const int confirmation_animation = 2130837533;
 			
 			// aapt resource value: 0x7f02001e
-			public const int compass = 2130837534;
+			public const int dialbig = 2130837534;
 			
 			// aapt resource value: 0x7f02001f
-			public const int confirmation_animation = 2130837535;
+			public const int generic_confirmation_00163 = 2130837535;
 			
 			// aapt resource value: 0x7f020020
-			public const int dialbig = 2130837536;
+			public const int generic_confirmation_00164 = 2130837536;
 			
 			// aapt resource value: 0x7f020021
-			public const int generic_confirmation_00163 = 2130837537;
+			public const int generic_confirmation_00165 = 2130837537;
 			
 			// aapt resource value: 0x7f020022
-			public const int generic_confirmation_00164 = 2130837538;
+			public const int generic_confirmation_00166 = 2130837538;
 			
 			// aapt resource value: 0x7f020023
-			public const int generic_confirmation_00165 = 2130837539;
+			public const int generic_confirmation_00167 = 2130837539;
 			
 			// aapt resource value: 0x7f020024
-			public const int generic_confirmation_00166 = 2130837540;
+			public const int generic_confirmation_00168 = 2130837540;
 			
 			// aapt resource value: 0x7f020025
-			public const int generic_confirmation_00167 = 2130837541;
+			public const int generic_confirmation_00169 = 2130837541;
 			
 			// aapt resource value: 0x7f020026
-			public const int generic_confirmation_00168 = 2130837542;
+			public const int generic_confirmation_00170 = 2130837542;
 			
 			// aapt resource value: 0x7f020027
-			public const int generic_confirmation_00169 = 2130837543;
+			public const int generic_confirmation_00171 = 2130837543;
 			
 			// aapt resource value: 0x7f020028
-			public const int generic_confirmation_00170 = 2130837544;
+			public const int generic_confirmation_00172 = 2130837544;
 			
 			// aapt resource value: 0x7f020029
-			public const int generic_confirmation_00171 = 2130837545;
+			public const int generic_confirmation_00173 = 2130837545;
 			
 			// aapt resource value: 0x7f02002a
-			public const int generic_confirmation_00172 = 2130837546;
+			public const int generic_confirmation_00174 = 2130837546;
 			
 			// aapt resource value: 0x7f02002b
-			public const int generic_confirmation_00173 = 2130837547;
+			public const int generic_confirmation_00175 = 2130837547;
 			
 			// aapt resource value: 0x7f02002c
-			public const int generic_confirmation_00174 = 2130837548;
+			public const int generic_confirmation_00176 = 2130837548;
 			
 			// aapt resource value: 0x7f02002d
-			public const int generic_confirmation_00175 = 2130837549;
+			public const int generic_confirmation_00177 = 2130837549;
 			
 			// aapt resource value: 0x7f02002e
-			public const int generic_confirmation_00176 = 2130837550;
+			public const int generic_confirmation_00178 = 2130837550;
 			
 			// aapt resource value: 0x7f02002f
-			public const int generic_confirmation_00177 = 2130837551;
+			public const int generic_confirmation_00179 = 2130837551;
 			
 			// aapt resource value: 0x7f020030
-			public const int generic_confirmation_00178 = 2130837552;
+			public const int generic_confirmation_00180 = 2130837552;
 			
 			// aapt resource value: 0x7f020031
-			public const int generic_confirmation_00179 = 2130837553;
+			public const int generic_confirmation_00181 = 2130837553;
 			
 			// aapt resource value: 0x7f020032
-			public const int generic_confirmation_00180 = 2130837554;
+			public const int generic_confirmation_00182 = 2130837554;
 			
 			// aapt resource value: 0x7f020033
-			public const int generic_confirmation_00181 = 2130837555;
+			public const int generic_confirmation_00183 = 2130837555;
 			
 			// aapt resource value: 0x7f020034
-			public const int generic_confirmation_00182 = 2130837556;
+			public const int generic_confirmation_00184 = 2130837556;
 			
 			// aapt resource value: 0x7f020035
-			public const int generic_confirmation_00183 = 2130837557;
+			public const int generic_confirmation_00185 = 2130837557;
 			
 			// aapt resource value: 0x7f020036
-			public const int generic_confirmation_00184 = 2130837558;
+			public const int generic_confirmation_00186 = 2130837558;
 			
 			// aapt resource value: 0x7f020037
-			public const int generic_confirmation_00185 = 2130837559;
+			public const int generic_confirmation_00187 = 2130837559;
 			
 			// aapt resource value: 0x7f020038
-			public const int generic_confirmation_00186 = 2130837560;
+			public const int generic_confirmation_00188 = 2130837560;
 			
 			// aapt resource value: 0x7f020039
-			public const int generic_confirmation_00187 = 2130837561;
+			public const int generic_confirmation_00189 = 2130837561;
 			
 			// aapt resource value: 0x7f02003a
-			public const int generic_confirmation_00188 = 2130837562;
+			public const int generic_confirmation_00190 = 2130837562;
 			
 			// aapt resource value: 0x7f02003b
-			public const int generic_confirmation_00189 = 2130837563;
+			public const int generic_confirmation_00191 = 2130837563;
 			
 			// aapt resource value: 0x7f02003c
-			public const int generic_confirmation_00190 = 2130837564;
+			public const int generic_confirmation_00192 = 2130837564;
 			
 			// aapt resource value: 0x7f02003d
-			public const int generic_confirmation_00191 = 2130837565;
+			public const int generic_confirmation_00193 = 2130837565;
 			
 			// aapt resource value: 0x7f02003e
-			public const int generic_confirmation_00192 = 2130837566;
+			public const int go_to_phone_00156 = 2130837566;
 			
 			// aapt resource value: 0x7f02003f
-			public const int generic_confirmation_00193 = 2130837567;
+			public const int go_to_phone_00157 = 2130837567;
 			
 			// aapt resource value: 0x7f020040
-			public const int go_to_phone_00156 = 2130837568;
+			public const int go_to_phone_00158 = 2130837568;
 			
 			// aapt resource value: 0x7f020041
-			public const int go_to_phone_00157 = 2130837569;
+			public const int go_to_phone_00159 = 2130837569;
 			
 			// aapt resource value: 0x7f020042
-			public const int go_to_phone_00158 = 2130837570;
+			public const int go_to_phone_00160 = 2130837570;
 			
 			// aapt resource value: 0x7f020043
-			public const int go_to_phone_00159 = 2130837571;
+			public const int go_to_phone_00161 = 2130837571;
 			
 			// aapt resource value: 0x7f020044
-			public const int go_to_phone_00160 = 2130837572;
+			public const int go_to_phone_00162 = 2130837572;
 			
 			// aapt resource value: 0x7f020045
-			public const int go_to_phone_00161 = 2130837573;
+			public const int go_to_phone_00163 = 2130837573;
 			
 			// aapt resource value: 0x7f020046
-			public const int go_to_phone_00162 = 2130837574;
+			public const int go_to_phone_00164 = 2130837574;
 			
 			// aapt resource value: 0x7f020047
-			public const int go_to_phone_00163 = 2130837575;
+			public const int go_to_phone_00165 = 2130837575;
 			
 			// aapt resource value: 0x7f020048
-			public const int go_to_phone_00164 = 2130837576;
+			public const int go_to_phone_00166 = 2130837576;
 			
 			// aapt resource value: 0x7f020049
-			public const int go_to_phone_00165 = 2130837577;
+			public const int go_to_phone_00167 = 2130837577;
 			
 			// aapt resource value: 0x7f02004a
-			public const int go_to_phone_00166 = 2130837578;
+			public const int go_to_phone_00168 = 2130837578;
 			
 			// aapt resource value: 0x7f02004b
-			public const int go_to_phone_00167 = 2130837579;
+			public const int go_to_phone_00169 = 2130837579;
 			
 			// aapt resource value: 0x7f02004c
-			public const int go_to_phone_00168 = 2130837580;
+			public const int go_to_phone_00170 = 2130837580;
 			
 			// aapt resource value: 0x7f02004d
-			public const int go_to_phone_00169 = 2130837581;
+			public const int go_to_phone_00171 = 2130837581;
 			
 			// aapt resource value: 0x7f02004e
-			public const int go_to_phone_00170 = 2130837582;
+			public const int go_to_phone_00172 = 2130837582;
 			
 			// aapt resource value: 0x7f02004f
-			public const int go_to_phone_00171 = 2130837583;
+			public const int go_to_phone_00173 = 2130837583;
 			
 			// aapt resource value: 0x7f020050
-			public const int go_to_phone_00172 = 2130837584;
+			public const int go_to_phone_00174 = 2130837584;
 			
 			// aapt resource value: 0x7f020051
-			public const int go_to_phone_00173 = 2130837585;
+			public const int go_to_phone_00175 = 2130837585;
 			
 			// aapt resource value: 0x7f020052
-			public const int go_to_phone_00174 = 2130837586;
+			public const int go_to_phone_00176 = 2130837586;
 			
 			// aapt resource value: 0x7f020053
-			public const int go_to_phone_00175 = 2130837587;
+			public const int go_to_phone_00177 = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int go_to_phone_00176 = 2130837588;
+			public const int go_to_phone_00178 = 2130837588;
 			
 			// aapt resource value: 0x7f020055
-			public const int go_to_phone_00177 = 2130837589;
+			public const int go_to_phone_00185 = 2130837589;
 			
 			// aapt resource value: 0x7f020056
-			public const int go_to_phone_00178 = 2130837590;
+			public const int go_to_phone_00186 = 2130837590;
 			
 			// aapt resource value: 0x7f020057
-			public const int go_to_phone_00185 = 2130837591;
+			public const int go_to_phone_00187 = 2130837591;
 			
 			// aapt resource value: 0x7f020058
-			public const int go_to_phone_00186 = 2130837592;
+			public const int go_to_phone_00188 = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int go_to_phone_00187 = 2130837593;
+			public const int go_to_phone_00189 = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int go_to_phone_00188 = 2130837594;
+			public const int go_to_phone_00190 = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int go_to_phone_00189 = 2130837595;
+			public const int go_to_phone_00191 = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int go_to_phone_00190 = 2130837596;
+			public const int go_to_phone_00192 = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int go_to_phone_00191 = 2130837597;
+			public const int go_to_phone_00193 = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int go_to_phone_00192 = 2130837598;
+			public const int go_to_phone_00194 = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int go_to_phone_00193 = 2130837599;
+			public const int go_to_phone_00195 = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int go_to_phone_00194 = 2130837600;
+			public const int go_to_phone_00196 = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int go_to_phone_00195 = 2130837601;
+			public const int go_to_phone_00197 = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int go_to_phone_00196 = 2130837602;
+			public const int go_to_phone_00198 = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int go_to_phone_00197 = 2130837603;
+			public const int go_to_phone_00199 = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int go_to_phone_00198 = 2130837604;
+			public const int go_to_phone_00200 = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int go_to_phone_00199 = 2130837605;
+			public const int go_to_phone_00210 = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int go_to_phone_00200 = 2130837606;
+			public const int go_to_phone_00211 = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int go_to_phone_00210 = 2130837607;
+			public const int go_to_phone_00212 = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int go_to_phone_00211 = 2130837608;
+			public const int go_to_phone_00213 = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int go_to_phone_00212 = 2130837609;
+			public const int go_to_phone_00214 = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int go_to_phone_00213 = 2130837610;
+			public const int go_to_phone_00215 = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int go_to_phone_00214 = 2130837611;
+			public const int go_to_phone_00216 = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int go_to_phone_00215 = 2130837612;
+			public const int go_to_phone_00217 = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int go_to_phone_00216 = 2130837613;
+			public const int go_to_phone_00218 = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int go_to_phone_00217 = 2130837614;
+			public const int go_to_phone_00219 = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int go_to_phone_00218 = 2130837615;
+			public const int go_to_phone_00220 = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int go_to_phone_00219 = 2130837616;
+			public const int go_to_phone_00221 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int go_to_phone_00220 = 2130837617;
+			public const int go_to_phone_00222 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int go_to_phone_00221 = 2130837618;
+			public const int go_to_phone_00223 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int go_to_phone_00222 = 2130837619;
+			public const int go_to_phone_00224 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int go_to_phone_00223 = 2130837620;
+			public const int go_to_phone_animation = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int go_to_phone_00224 = 2130837621;
+			public const int ic_full_cancel = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int go_to_phone_animation = 2130837622;
+			public const int ic_full_sad = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_full_cancel = 2130837623;
+			public const int ic_plusone_medium_off_client = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_full_sad = 2130837624;
+			public const int ic_plusone_small_off_client = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_plusone_medium_off_client = 2130837625;
+			public const int ic_plusone_standard_off_client = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_plusone_small_off_client = 2130837626;
+			public const int ic_plusone_tall_off_client = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_plusone_standard_off_client = 2130837627;
+			public const int Icon = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_plusone_tall_off_client = 2130837628;
+			public const int lcenterdial = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int Icon = 2130837629;
+			public const int outerdial = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ncompass = 2130837630;
+			public const int powered_by_google_dark = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int powered_by_google_dark = 2130837631;
+			public const int powered_by_google_light = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int powered_by_google_light = 2130837632;
-			
-			// aapt resource value: 0x7f020081
-			public const int scompass = 2130837633;
+			public const int scompass = 2130837632;
 			
 			static Drawable()
 			{
@@ -674,11 +671,11 @@ namespace Compass
 			// aapt resource value: 0x7f09000b
 			public const int error_message = 2131296267;
 			
-			// aapt resource value: 0x7f090016
-			public const int headingDegree = 2131296278;
-			
 			// aapt resource value: 0x7f090015
-			public const int headingDirection = 2131296277;
+			public const int headingDegree = 2131296277;
+			
+			// aapt resource value: 0x7f090014
+			public const int headingDirection = 2131296276;
 			
 			// aapt resource value: 0x7f090000
 			public const int hybrid = 2131296256;
@@ -686,8 +683,8 @@ namespace Compass
 			// aapt resource value: 0x7f090012
 			public const int imageViewCompass = 2131296274;
 			
-			// aapt resource value: 0x7f090014
-			public const int imageViewDial = 2131296276;
+			// aapt resource value: 0x7f090013
+			public const int imageViewDial = 2131296275;
 			
 			// aapt resource value: 0x7f090007
 			public const int left = 2131296263;
@@ -710,17 +707,14 @@ namespace Compass
 			// aapt resource value: 0x7f090004
 			public const int terrain = 2131296260;
 			
-			// aapt resource value: 0x7f090018
-			public const int text = 2131296280;
-			
 			// aapt resource value: 0x7f090017
-			public const int title = 2131296279;
+			public const int text = 2131296279;
+			
+			// aapt resource value: 0x7f090016
+			public const int title = 2131296278;
 			
 			// aapt resource value: 0x7f090009
 			public const int top = 2131296265;
-			
-			// aapt resource value: 0x7f090013
-			public const int tvHeading = 2131296275;
 			
 			// aapt resource value: 0x7f090011
 			public const int watch_view_stub = 2131296273;
