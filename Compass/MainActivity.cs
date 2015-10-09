@@ -19,13 +19,19 @@ namespace Compass
     [Activity(Label = "Compass", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity,ISensorEventListener
     {
+        // declare global variable
         private SensorManager sensorManager;
 
+        //set current degree rotation 
         private float currentDegree = 0f;
-        ImageView image;
+
+        // initialize refrence of UI element 
+        ImageView compassBgImage;
         ImageView dialImage;
         TextView headingDirection;
         TextView headingDegree;
+
+        
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -33,15 +39,18 @@ namespace Compass
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
+            //Get instance of Sensor Manger 
             sensorManager = (SensorManager)GetSystemService(SensorService);
 
+            // WatchViewStub calculate wearable type and render view from appropriate UI xml defination
             var v = FindViewById<WatchViewStub>(Resource.Id.watch_view_stub);
+
+            //Infalte watchviewstub
             v.LayoutInflated += delegate
             {
 
-                // Get our button from the layout resource,
-                // and attach an event to it
-                image = FindViewById<ImageView>(Resource.Id.imageViewCompass);
+                // Get elemnt from the layout resource,
+                compassBgImage = FindViewById<ImageView>(Resource.Id.imageViewCompass);
                 headingDirection = FindViewById<TextView>(Resource.Id.headingDirection);
                 headingDegree = FindViewById<TextView>(Resource.Id.headingDegree);
                 dialImage = FindViewById<ImageView>(Resource.Id.imageViewDial);
@@ -53,6 +62,7 @@ namespace Compass
         {
             base.OnResume();
 
+            // Listen sensor manger on resume activity of app
             sensorManager.RegisterListener(this, sensorManager.GetDefaultSensor(SensorType.Orientation),SensorDelay.Game);
         }
 
@@ -60,6 +70,7 @@ namespace Compass
         protected override void OnPause()
         {
             base.OnPause();
+            // stop listening if app is no longer used. This is importent step otherwise it will drain your watch battery.
             sensorManager.UnregisterListener(this);
         }
 
@@ -70,13 +81,18 @@ namespace Compass
 
         public void OnSensorChanged(SensorEvent e)
         {
+            //calculate degree
             float degree = (float)Math.Round(e.Values[0]);
+
+            //calculate direction coordinal 
             headingDirection.Text = CalculateDirection(degree);
+
+            // Set text for degree
             headingDegree.Text = Convert.ToString(degree) + "\u00B0";
-            var ra = new RotateAnimation(currentDegree, -degree, Dimension.RelativeToSelf, 0.5f, Dimension.RelativeToSelf, 0.5f);
-            ra.Duration = 210;
-            ra.FillAfter = true;
-            image.Animation = ra;
+            var rotation = new RotateAnimation(currentDegree, -degree, Dimension.RelativeToSelf, 0.5f, Dimension.RelativeToSelf, 0.5f);
+            rotation.Duration = 200;
+            rotation.FillAfter = true;
+            compassBgImage.Animation = rotation;
             currentDegree = -degree;
         }
         private string CalculateDirection(float degree)
